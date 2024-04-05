@@ -1,4 +1,6 @@
 // Sliding Window/02_longest-substring-without-repeating-characters.java
+
+
 /**
  * Date  : 05-Apr-24
  * Repo  : https://github.com/ankitsamaddar/leetcode-top-150
@@ -10,6 +12,7 @@
  * Lintcode 0384 :  https://www.lintcode.com/problem/384
  */
 
+import java.util.HashSet;
 class Solution {
   public int lengthOfLongestSubstring(String s) {
     int left   = 0;
